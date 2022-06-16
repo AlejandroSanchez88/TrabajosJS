@@ -1,0 +1,58 @@
+body{
+    background-color: pink;
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 5rem;
+    color: antiquewhite;
+    text-align: center;
+    text-shadow: 1px 3px 1px black;
+    flex: auto;
+}
+
+hr{
+    color: white;
+    border: 2px solid white;
+}
+
+a{
+    font-size: 1.5rem;
+}
+
+.navbar{
+    background: pink;
+}
+
+.nav-item{
+    text-align: center;
+}
+
+.collapse{
+    color: antiquewhite;
+}
+
+.container-fluid{
+    background: pink;
+}
+
+.navbar-toggler{
+    border: 1 solid black;
+}
+
+.nav-link{
+    color: black;
+}
+
+.cards{
+    display: grid-area
+    "card card card"
+    "card card card"
+    "card card card"
+    ;
+}
+
+.card{
+    display: flex;
+    grid-area: card;
+}
